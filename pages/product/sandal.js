@@ -1,5 +1,5 @@
 function Sandal(){
-    return <h1>Sandal Landing page</h1>
+    return <h1> Landing page for Sandals</h1>
 }
 
 export default Sandal
