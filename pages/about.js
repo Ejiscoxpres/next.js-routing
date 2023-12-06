@@ -1,4 +1,13 @@
+import Link from 'next/link'
 function About(){
-    return <h1>About page</h1>
+   
+    return (
+        <>
+        <Link href='/'>
+        Home
+        </Link>
+    <h1>About page</h1>
+    </>
+    )
 }
 export default About
