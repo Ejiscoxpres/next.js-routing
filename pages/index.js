@@ -10,6 +10,9 @@ function Home(){
          <Link href='/product'>
             Products
          </Link>
+         <Link href='/workers'>
+            Workers
+         </Link>
     </div>
     )
 
