@@ -1,5 +1,5 @@
 import Link from 'next/link'
- export default function ProductList(){
+ export default function ProductList({productId=100}){
     return(
         <>
      <Link href='/'>
@@ -7,27 +7,27 @@ import Link from 'next/link'
         </Link>
 
         <h2>
-           <Link href='/water proof/1'>
-           water proof
+           <Link href='/'>
+           water proof 1
            </Link>
             </h2>
         <h2>
-        <Link href='/ sand proof'>
-        sand proof
+        <Link href='/ '>
+        sand proof 2
            </Link>
            
             </h2>
 
         <h2>
            
-        <Link href='/ salt' replace>
-        salt
+        <Link href='/ ' replace>
+        salt 3
            </Link>
         </h2>
 
             <h2>
-        <Link href={'/ product/${productI}'}>
-         product
+        <Link href={'/ '}>
+         product{productId}
            </Link>
             </h2>
     
