@@ -1,5 +1,5 @@
 import Link from 'next/link'
-function ProductList(){
+ export default function ProductList(){
     return(
         <>
      <Link href='/'>
@@ -12,18 +12,25 @@ function ProductList(){
            </Link>
             </h2>
         <h2>
-        <Link href='/ sand proof/2'>
+        <Link href='/ sand proof'>
         sand proof
            </Link>
            
             </h2>
+
         <h2>
-        <Link href='/ salt/3'>
+           
+        <Link href='/ salt' replace>
         salt
            </Link>
+        </h2>
+
+            <h2>
+        <Link href={'/ product/${productI}'}>
+         product
+           </Link>
             </h2>
+    
         </>
     )
 }
-
-export default ProductList
