@@ -5,7 +5,7 @@ function Home(){
    const router = useRouter()
    const handleClick =() =>{
       console.log('Placing your order')
-      router.push('/product')
+      router.replace('/product')
 
    }
     return (
